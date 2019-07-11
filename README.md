@@ -1,0 +1,2 @@
+# Smashing-Magazine
+PROJECT: DESIGN TEARDOWN HTML and CSS
