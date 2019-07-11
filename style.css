@@ -48,3 +48,8 @@ table {
 }
 
 /* END OF reset style */
+
+/*==== general =====*/
+*{
+	box-sizing: border-box;
+}
