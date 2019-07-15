@@ -55,6 +55,7 @@ table {
 }
 a{
 	text-decoration: none;
+	color: white;
 }
 body{
 	font-family: var(--mainfont);
@@ -99,6 +100,18 @@ body{
 	 text-decoration: none;
  }
 
+ .btn{
+    font-size: 20px;
+    color: white;
+    margin: auto;
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 11px 11px 11px 15px;
+    font-weight: bold;
+ }
+ 
 /*=== END header ======*/
 
 
