@@ -52,6 +52,9 @@ table {
 /*==== general =====*/
 *{
 	box-sizing: border-box;
+	padding: 0;
+    margin: 0;
+}
 }
 a,
 span{
@@ -89,18 +92,20 @@ a{
 body{
 	font-family: 'Lora', serif;
 	min-height: 100%;
-	display: flex;
-    flex-direction: column;
-    background-color: #fff;
-	padding-bottom: 400px;
+	width: 100%;
+
 }
 /*=== header ====*/
 .main_header{
 	width: 100%;
 	background: #d33a2c;
 	height: 150px;
-
+	display: flex;
+    flex-direction: column;
+    background-color: #fff;
+	padding-bottom: 400px;
 }
+
 .header_container{
 	display: grid;
 	grid-template-columns: 10% auto 15%;
@@ -214,6 +219,106 @@ section{
 	display: block;
 	background: rgb(32, 73, 32);
 	border: 1px solid brown;
+}
+
+/*======START PERSON SECTION============*/
+section {
+    display: block;
+}
+
+.person {
+    background-color: #ededed;
+    min-height: 100%;
+    width: 100%;
+  }
+  
+  .person-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 65px 0;
+  }
+  
+  .person-week {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-bottom: 30px;
+  }
+  
+  .person-box {
+    width: 280px;
+    height: 214px;
+    margin-left: 66px;
+    background-color: #bababa;
+    border-radius: 20px;
+  }
+  
+  .person-desc {
+    padding-left: 52px;
+  }
+  
+  .pow {
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+  }
+  
+  .person-desc p {
+    color: #333;
+    font-size: 21px;
+    line-height: 34px;
+    margin: 21px 0;
+    word-break: break-word;
+  }
+
+.person-grid {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.person-item {
+    margin: 65px 0;
+    padding: 0 21px 0 107px;
+    display: grid;
+    grid-template-rows: 100px 200px;
+}
+
+.person-item-up {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.person-pic {
+    width: 80px;
+    height: 80px;
+    background-color: #d5d5d5;
+    margin-left: -10px;
+}
+
+.person-item-span {
+    padding: 10px 0;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #666;
+}
+
+.person-item-h1 {
+    margin-top: 9px;
+    padding: 10px 0 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.person-item-desc {
+    margin-left: 78px;
+    margin-top: 20px;
 }
 
 
