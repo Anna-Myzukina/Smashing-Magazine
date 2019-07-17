@@ -247,22 +247,66 @@ figcaption:hover>p{
 /*====END first-section=====*/
 
 /*=====articles-box=====*/
+
 .article{
   padding: 20px 20px 150px 20px;
 }
+
+.first-article {
+  background-color:rgb(156, 139, 116);
+}
+
+.second-article {
+  background-color: rgb(119, 128, 105);
+}
+
+.third-article {
+  background-color: rgb(121, 111, 99);
+}
+
+
 .article h2{
   color: black;
   font-size: 25px;
 }
 
-.article i:after{
-  content: '→';
-  display: block;
-  color: #fff;
-  font-size: 70px;
-  padding: 0;
-  position: absolute;
+.article p {
+  font-size: 20px;
+  line-height: 1.7;
+  padding-top: 15px;
 }
+
+/*======START EXPLORE=======*/
+
+.left_block {
+  height: 300px;
+  background-color: rgb(191, 236, 236);
+}
+
+.right_block {
+  height: 300px;
+  background-color: orange;
+}
+
+.left_block p {
+  font-size: 30px;
+}
+
+.right_block p {
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+.right_block h2 {
+  font-size: 40px;
+  line-height: 1.7;
+}
+
+.explore-btn {
+margin-top: 50px;
+}
+
+/*======END EXPLORE=========*/
 
 
 
