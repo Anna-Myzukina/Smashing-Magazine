@@ -299,7 +299,7 @@ figcaption:hover>p{
 }
 
 .left_block p {
-  font-size: 21px;
+  font-size: 19px;
   padding: 30px;
 }
 
@@ -318,10 +318,58 @@ figcaption:hover>p{
 margin-top: 50px;
 }
 
-
 /*======END EXPLORE=========*/
 
+/*======START article-container and article-banner======*/
 
+.forth_block {
+  margin: auto;
+  border-radius: 20px;
+  background-color: #f79c9c;
+  border: 1px solid brown;
+}
+
+.article_container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-auto-rows: 500px;
+  padding-top: 40px;
+}
+
+.article_banner a {
+  font-size: 30px;
+  color: rgb(3, 3, 3);
+}
+
+/*======END article-container and article-banner ========*/
+
+/*======START PERSON OF THE WEEK ========*/
+.person-of-the-week{
+  margin: auto;
+  border-radius: 15px;
+  background-color: #3f3c3c;
+  border: 1px solid brown;
+}
+
+.person-of-the-week .row {
+  width: 150%;
+}
+.person{
+    padding-top: 26px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 200px;
+}
+
+.person h3 {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/*======END PERSON OF THE WEEK ========*/
 
 /*===== START load more section====*/
 a.load_more_link:after {
@@ -342,6 +390,12 @@ a.load_more_link {
     padding: 10px 0;
     cursor: pointer;
 }
+
+/*=====START article-banner======*/
+
+/*=====END article-banner========*/
+
+
 /*===== END load more section  ====*/
 
 /*===== START footer ===============*/
