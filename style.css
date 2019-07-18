@@ -347,26 +347,43 @@ margin-top: 50px;
 .person-of-the-week{
   margin: auto;
   border-radius: 15px;
-  background-color: #3f3c3c;
+  background-color: #d8cdcd;
   border: 1px solid brown;
 }
 
-.person-of-the-week .row {
-  width: 150%;
-}
-.person{
-    padding-top: 26px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-auto-rows: 200px;
-}
-
-.person h3 {
-  font-size: 20px;
+.second_person h3,
+.book-left h3 {
+  font-size: 26px;
   font-weight: bold;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  text-transform: uppercase;
+  color: orange;
+}
+
+.second_person p,
+.book-left p {
+  font-size: 22px;
+  line-height: 1.7;
+  color: #333;
+}
+
+.first_person,
+.second_person {
+height: 300px;
+}
+
+.first_person img {
+  width: 250px;
+  border-radius: 8px;
+  border: 5px solid chocolate;
+  transform: rotate(-11deg);
+  margin: 22px 0 0 10px;
+}
+
+.first_person img:hover {
+  transform: rotate(0);
 }
 
 /*======END PERSON OF THE WEEK ========*/
@@ -391,9 +408,16 @@ a.load_more_link {
     cursor: pointer;
 }
 
-/*=====START article-banner======*/
+/*=====START BOOK======*/
 
-/*=====END article-banner========*/
+.book-right img {
+  height: 200px;
+  width: 150px;
+} 
+
+
+
+/*=====END BOOK========*/
 
 
 /*===== END load more section  ====*/
