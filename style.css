@@ -255,7 +255,11 @@ figcaption:hover>p{
 .first-article {
   background-color:rgb(156, 139, 116);
 }
-
+.article h2>a:hover{
+ color: #390c09;
+ font-size: 15px;
+ font-style: italic;
+}
 .second-article {
   background-color: rgb(119, 128, 105);
 }
@@ -276,6 +280,10 @@ figcaption:hover>p{
   padding-top: 15px;
 }
 
+.left-block{
+  margin: 60px 25px 0 25px;
+  text-align: center;
+}
 /*======START EXPLORE=======*/
 .third-block{
   margin: auto;
@@ -296,9 +304,11 @@ figcaption:hover>p{
   background-color: orange;
   border-radius: 12px;
   text-align: center;
+  margin: 15px;
 }
 
-.left_block p {
+.left_block p ,
+.left-block p{
   font-size: 19px;
   padding: 30px;
 }
@@ -341,6 +351,15 @@ margin-top: 50px;
   color: rgb(3, 3, 3);
 }
 
+.banner-second{
+  background-color: #7e6e6d;
+}
+.banner{
+  background: url(https://d33wubrfki0l68.cloudfront.net/148069bc1849f0c7b2304c945073dbdfdb6341f0/b12bb/images/printed-mag/printmag-homepage-opt.svg) no-repeat;
+  background-position: center;
+  padding: 250px;
+  background-color: grey;
+}
 /*======END article-container and article-banner ========*/
 
 /*======START PERSON OF THE WEEK ========*/
@@ -379,7 +398,7 @@ a.load_more_link:after {
   background-color: rgb(163, 157, 157);
 	height: 200px;
   text-align: center;
-	padding: 1em 0 5em;
+	padding: 80px 0 80px;
 }
 a.load_more_link {
     text-transform: uppercase;
