@@ -71,7 +71,7 @@ a{
 	clear: both;
 	display: table;
   }
-  
+  /*I added border to show how col works ;)*/
   [class*="col-"] {
 	float: left;
 	padding: 0 20px;
@@ -94,9 +94,8 @@ body{
 	font-family: 'Lora', serif;
 	min-height: 100%;
 	display: flex;
-    flex-direction: column;
-    background-color: #fff;
-	padding-bottom: 400px;
+  flex-direction: column;
+  background-color: #fff;
 }
 section{
 	display: block;
@@ -565,7 +564,14 @@ a.load_more_link {
   background-color: #d87272;
   border: 1px solid brown;
   padding: 50px;
-  background-image: url(https://www.smashingmagazine.com/images/footer/laptop__left.svg) no-repeat;
+  
+}
+.contact-footer {
+
+  background-image: url("https://www.smashingmagazine.com/images/footer/laptop__left.svg"), url("https://www.smashingmagazine.com/images/smashing-cat/cat-the-behemoth.svg");
+  background-repeat: no-repeat;
+  background-position: left 15% bottom 16px,right 12% bottom 32px;
+  background-size: 160px auto, 224px auto;
 }
 
 .list2 li {
