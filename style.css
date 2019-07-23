@@ -256,11 +256,13 @@ figcaption:hover>p{
 .first-article {
   background-color:rgb(156, 139, 116);
 }
+/*
 .article h2>a:hover{
  color: #390c09;
  font-size: 15px;
  font-style: italic;
 }
+*/
 .second-article {
   background-color: rgb(119, 128, 105);
 }
