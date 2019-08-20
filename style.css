@@ -51,9 +51,7 @@ table {
 /* END OF reset style */
 
 /*==== general =====*/
-#div1{
-  display: none;
-}
+
 *{
 	box-sizing: border-box;
 }
